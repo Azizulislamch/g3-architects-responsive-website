@@ -175,6 +175,10 @@ main > section {
     margin-bottom: 20px;
 }
 
+.card:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15)
+}
+
 .card-title {
     font-size: 1.25rem;
     font-weight: 600;
@@ -237,6 +241,10 @@ main > section {
 .fact-title {
     font-size: 1.25rem;
     font-weight: 600;
+}
+
+.fact-card:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15)
 }
 
 
