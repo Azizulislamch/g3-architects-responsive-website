@@ -208,7 +208,8 @@ main > section {
 @media screen and (max-width: 576px) {
     .navbar, 
     .nav-links,
-    .teams {
+    .teams,
+    .our-features {
         flex-direction: column;
     }
 
@@ -228,17 +229,36 @@ main > section {
     .team-img-container {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .architect img {
+        width: 100%;
+    }
+
+    #experience-badge {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
 }
 
 
 
-/* Medium Size device */
+/* ===== Medium Size device ===== */
 @media screen and (min-width: 576px) and (max-width: 992px) {
     .navbar {
         margin: 0 20px;
     }
 
-    .teams {
+    .teams,
+    .our-features {
         flex-direction: column;
+    }
+
+    .architect img {
+        width: 100%;
+    }
+
+    #experience-badge {
+        margin-top: 30px;
+        margin-left: 30px;
     }
 }
