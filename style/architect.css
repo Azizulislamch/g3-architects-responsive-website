@@ -251,6 +251,7 @@ main > section {
 /* Sponsor Section */
 .our-sponsors {
     margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 .sponsor {
@@ -294,6 +295,17 @@ main > section {
     transform: translateX(-50%);
   }
 }
+
+
+/* Footer Section */
+.footer-section {
+    background-color: #FFF4E7;
+    padding: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+
 
 
 /* ===== Responsive Query for Mobile device ===== */
