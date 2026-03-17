@@ -348,6 +348,10 @@ main > section {
         justify-items: center;
         gap: 24px;
     }
+
+    .sponsor p {
+        padding: 0 15px;
+    }
 }
 
 
