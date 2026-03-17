@@ -186,3 +186,16 @@ main > section {
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
+
+
+/* Medium Size device */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .navbar {
+        margin: 0 20px;
+    }
+
+    .teams {
+        flex-direction: column;
+    }
+}
