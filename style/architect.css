@@ -264,8 +264,36 @@ main > section {
     grid-template-columns: repeat(5, 1fr);
     margin-top: 50px;
     filter: grayscale(100%);
+    overflow: hidden;
+    width: 100%;
 }
 
+
+/* Scrolling for smooth loop */
+.sponsor-track {
+  display: flex;
+  gap: 50px;
+  animation: scroll 30s linear infinite;
+}
+
+.sponsor-track img {
+  width: 120px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.sponsor-track img:hover {
+  opacity: 1;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
 
 
 /* ===== Responsive Query for Mobile device ===== */
