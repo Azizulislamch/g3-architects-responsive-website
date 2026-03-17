@@ -44,7 +44,7 @@ main {
 }
 
 main > section {
-    margin-top: 130px;
+    margin-top: 120px;
 }
 
 .section-title {
@@ -238,6 +238,26 @@ main > section {
     font-size: 1.25rem;
     font-weight: 600;
 }
+
+
+/* Sponsor Section */
+.our-sponsors {
+    margin-top: 70px;
+}
+
+.sponsor {
+    max-width: 542px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sponsor-companies {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 50px;
+    filter: grayscale(100%);
+}
+
 
 
 /* ===== Responsive Query for Mobile device ===== */
